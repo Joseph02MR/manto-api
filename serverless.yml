@@ -1,0 +1,12 @@
+service: manto-api
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  stage: dev
+
+functions:
+  GET:
+    handler: index.get
