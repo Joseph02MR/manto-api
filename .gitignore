@@ -2,6 +2,8 @@
 node_modules
 jspm_packages
 db.txt
+script_prolog.sql
+serverless.yaml
 
 # Serverless directories
 .serverless
